@@ -38,7 +38,7 @@ const CreateProduct = () => {
           }
     
           // Send form data (including image) to the backend
-          const response = await axios.post('http://localhost:4000/api/v1/product/create-product', formDataToSend, {
+          const response = await axios.post('/api/v1/product/create-product', formDataToSend, {
             headers: {
               'Content-Type': 'multipart/form-data',
             },
