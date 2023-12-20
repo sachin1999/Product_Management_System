@@ -8,7 +8,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import OrderDetail from "./components/OrderDetail";
 
-axios.defaults.baseURL = 'http://localhost:4000/';
+axios.defaults.baseURL = 'https://product-management-back.onrender.com';
 function App() {
   return (
     <BrowserRouter>
